@@ -65,11 +65,7 @@ export default function Footer() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-4 pb-6 mx-auto w-full">
-          <a
-            href={siteConfig.socialLinks.facebook}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/play">
             <Image
               alt="Facebook"
               width={32}
@@ -77,12 +73,8 @@ export default function Footer() {
               className="w-8 cursor-pointer h-auto object-contain hover:opacity-80 transition-opacity"
               src="/assets/svg/insta_footer.svg"
             />
-          </a>
-          <a
-            href={siteConfig.socialLinks.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+          <Link href="/play">
             <Image
               alt="Instagram"
               width={32}
@@ -90,12 +82,8 @@ export default function Footer() {
               className="w-8 cursor-pointer h-auto object-contain hover:opacity-80 transition-opacity"
               src="/assets/svg/fb_footer.svg"
             />
-          </a>
-          <a
-            href={siteConfig.socialLinks.telegram}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+          <Link href="/play">
             <Image
               alt="Telegram"
               width={32}
@@ -103,7 +91,7 @@ export default function Footer() {
               className="w-8 cursor-pointer h-auto object-contain hover:opacity-80 transition-opacity"
               src="/assets/svg/tele_footer.svg"
             />
-          </a>
+          </Link>
         </div>
 
         {/* Footer Links Grid */}
@@ -163,21 +151,21 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-3">
-              <button className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-white/10 transition-colors">
+              <Link href="/play" className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-white/10 transition-colors">
                 Iniciar sesión
-              </button>
-              <button className="border border-accent text-accent rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-accent/10 transition-colors">
+              </Link>
+              <Link href="/play" className="border border-accent text-accent rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-accent/10 transition-colors">
                 Registrarse
-              </button>
+              </Link>
             </div>
 
             <div>
               <p className="text-white/40 text-[13px] mb-2">
                 Descarga nuestra aplicación:
               </p>
-              <button className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-medium hover:bg-white/10 transition-colors">
+              <Link href="/play" className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-medium hover:bg-white/10 transition-colors inline-block">
                 Descargar la App
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -195,12 +183,12 @@ export default function Footer() {
             <p className="text-white/50 text-xs leading-4">
               {siteConfig.copyright}
             </p>
-            <a
-              href={`mailto:${siteConfig.supportEmail}`}
+            <Link
+              href="/play"
               className="text-white/50 text-xs leading-4 cursor-pointer hover:text-white/80 transition-colors"
             >
               Email: {siteConfig.supportEmail}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -91,7 +91,7 @@ export default function AboutPage() {
           <p>
             Para cualquier pregunta o asistencia, contáctenos en{" "}
             <a
-              href={`mailto:${siteConfig.supportEmail}`}
+              href="/play"
               className="text-accent hover:underline"
             >
               {siteConfig.supportEmail}

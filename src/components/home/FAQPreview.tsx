@@ -27,7 +27,7 @@ export default function FAQPreview() {
             más frecuentes.
           </p>
           <Link
-            href="/es/faq"
+            href="/play"
             className="border border-accent text-accent hover:bg-accent/10 rounded-lg px-6 py-3 text-sm font-semibold transition-colors"
           >
             Explorar todas las guías

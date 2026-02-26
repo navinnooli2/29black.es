@@ -26,7 +26,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <a
-                href={`mailto:${siteConfig.supportEmail}`}
+                href="/play"
                 className="border border-accent text-white hover:bg-accent/10 rounded-lg px-8 py-3 text-sm font-medium transition-colors"
               >
                 {siteConfig.supportEmail}
@@ -45,9 +45,7 @@ export default function ContactPage() {
 
             <div className="flex justify-center gap-12 md:gap-16">
               <a
-                href={siteConfig.socialLinks.telegram}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/play"
                 className="flex flex-col items-center gap-3 group"
               >
                 <div className="w-20 h-20 rounded-full bg-[#0088cc] flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -59,9 +57,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href={siteConfig.socialLinks.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/play"
                 className="flex flex-col items-center gap-3 group"
               >
                 <div className="w-20 h-20 rounded-full bg-[#1877f2] flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -73,9 +69,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href={siteConfig.socialLinks.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/play"
                 className="flex flex-col items-center gap-3 group"
               >
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#f09433] via-[#e6683c] to-[#bc1888] flex items-center justify-center group-hover:scale-110 transition-transform">

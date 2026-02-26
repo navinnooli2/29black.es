@@ -5,7 +5,7 @@ import SectionHeader from "@/components/shared/SectionHeader";
 export default function SlotsSection() {
   return (
     <section className="py-5">
-      <SectionHeader icon="🎰" title="Tragamonedas" seeAllHref="/es/casino/slots" />
+      <SectionHeader icon="🎰" title="Tragamonedas" seeAllHref="/play" />
 
       <div className="flex gap-3 overflow-x-auto scrollbar-none pb-2">
         {slotGames.map((game, i) => (
@@ -28,11 +28,11 @@ export default function SlotsSection() {
                 </span>
               )}
 
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-10">
-                <button className="bg-[#ffb700] hover:bg-[#e5a500] text-black font-semibold rounded-lg px-5 py-2 text-sm transition-colors">
+              <a href="/play" className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-10">
+                <span className="bg-[#ffb700] hover:bg-[#e5a500] text-black font-semibold rounded-lg px-5 py-2 text-sm transition-colors">
                   Jugar
-                </button>
-              </div>
+                </span>
+              </a>
             </div>
 
             <p className="text-white/50 text-[12px]">

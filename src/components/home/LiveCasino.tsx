@@ -8,7 +8,7 @@ export default function LiveCasino() {
       <SectionHeader
         icon="🎥"
         title="Casino en vivo"
-        seeAllHref="/es/casino/live"
+        seeAllHref="/play"
       />
 
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-3">
@@ -35,11 +35,11 @@ export default function LiveCasino() {
                 </span>
               )}
 
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-10">
-                <button className="bg-[#ffb700] hover:bg-[#e5a500] text-black font-semibold rounded-lg px-3 py-1.5 text-xs transition-colors">
+              <a href="/play" className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-10">
+                <span className="bg-[#ffb700] hover:bg-[#e5a500] text-black font-semibold rounded-lg px-3 py-1.5 text-xs transition-colors">
                   Jugar
-                </button>
-              </div>
+                </span>
+              </a>
             </div>
 
             <p className="text-white/50 text-[11px]">
