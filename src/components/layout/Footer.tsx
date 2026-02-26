@@ -65,7 +65,7 @@ export default function Footer() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-4 pb-6 mx-auto w-full">
-          <Link href="/play">
+          <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black">
             <Image
               alt="Facebook"
               width={32}
@@ -74,7 +74,7 @@ export default function Footer() {
               src="/assets/svg/insta_footer.svg"
             />
           </Link>
-          <Link href="/play">
+          <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black">
             <Image
               alt="Instagram"
               width={32}
@@ -83,7 +83,7 @@ export default function Footer() {
               src="/assets/svg/fb_footer.svg"
             />
           </Link>
-          <Link href="/play">
+          <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black">
             <Image
               alt="Telegram"
               width={32}
@@ -151,10 +151,10 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-3">
-              <Link href="/play" className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-white/10 transition-colors">
+              <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-white/10 transition-colors">
                 Iniciar sesión
               </Link>
-              <Link href="/play" className="border border-accent text-accent rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-accent/10 transition-colors">
+              <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="border border-accent text-accent rounded-lg px-6 py-2.5 text-sm font-semibold hover:bg-accent/10 transition-colors">
                 Registrarse
               </Link>
             </div>
@@ -163,7 +163,7 @@ export default function Footer() {
               <p className="text-white/40 text-[13px] mb-2">
                 Descarga nuestra aplicación:
               </p>
-              <Link href="/play" className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-medium hover:bg-white/10 transition-colors inline-block">
+              <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="border border-white/30 text-white rounded-lg px-6 py-2.5 text-sm font-medium hover:bg-white/10 transition-colors inline-block">
                 Descargar la App
               </Link>
             </div>
@@ -184,7 +184,7 @@ export default function Footer() {
               {siteConfig.copyright}
             </p>
             <Link
-              href="/play"
+              href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
               className="text-white/50 text-xs leading-4 cursor-pointer hover:text-white/80 transition-colors"
             >
               Email: {siteConfig.supportEmail}

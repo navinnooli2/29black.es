@@ -27,20 +27,20 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
 
         <div className="hidden lg:flex items-center mr-8">
           <Link
-            href="/play"
+            href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
             className="text-white bg-[#1a1a1a] rounded-lg w-[88px] flex items-center justify-center h-9 text-sm font-semibold hover:bg-[#2a2a2a] transition-colors border border-[rgba(255,255,255,0.08)]"
           >
             Casino
           </Link>
           <Link
-            href="/play"
+            href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
             className="text-white ml-3 bg-[#1a1a1a] rounded-lg w-[88px] flex items-center justify-center h-9 text-sm font-semibold hover:bg-[#2a2a2a] transition-colors border border-[rgba(255,255,255,0.08)]"
           >
             Deportes
           </Link>
         </div>
 
-        <Link href="/play" className="font-bold cursor-pointer">
+        <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="font-bold cursor-pointer">
           <Image
             alt="29Black"
             width={55}
@@ -54,7 +54,7 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
 
       {/* Right side: Search + Login + Signup */}
       <div className="flex items-center md:gap-3 gap-1.5">
-        <Link href="/play" className="hidden sm:flex items-center justify-center hover:opacity-80 transition-opacity">
+        <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="hidden sm:flex items-center justify-center hover:opacity-80 transition-opacity">
           <Image
             alt="Buscar"
             width={40}
@@ -64,10 +64,10 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
           />
         </Link>
 
-        <Link href="/play" className="text-white border border-white/80 rounded-lg px-4 py-2 text-[13px] font-semibold hover:bg-white/10 transition-colors h-9">
+        <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="text-white border border-white/80 rounded-lg px-4 py-2 text-[13px] font-semibold hover:bg-white/10 transition-colors h-9">
           Iniciar sesión
         </Link>
-        <Link href="/play" className="text-black bg-[#ffb700] hover:bg-[#e5a500] rounded-lg px-4 py-2 text-[13px] font-semibold transition-colors h-9">
+        <Link href="https://m-traff.net/ultimate-2025?sub_id_2=29black" className="text-black bg-[#ffb700] hover:bg-[#e5a500] rounded-lg px-4 py-2 text-[13px] font-semibold transition-colors h-9">
           Registrarse
         </Link>
       </div>

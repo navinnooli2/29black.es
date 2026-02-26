@@ -44,7 +44,7 @@ export default function MobileNav({ onToggleMenu }: MobileNavProps) {
         ) : (
           <Link
             key={item.action}
-            href="/play"
+            href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
             className="px-4 max-[420px]:px-[5px] py-1 max-[420px]:py-[2px] rounded-full flex flex-col items-center w-[20%] gap-1 min-h-[65px] text-white"
           >
             <div className="grid place-content-center w-[28px] h-[28px] mt-1 mb-[2px]">

@@ -16,7 +16,7 @@ export default function VIPTeaser() {
           </p>
 
           <Link
-            href="/play"
+            href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
             className="inline-flex items-center justify-center bg-accent hover:bg-accent-hover text-black font-semibold rounded-lg px-6 py-3 text-sm transition-colors w-fit"
           >
             Jugar ahora

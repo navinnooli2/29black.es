@@ -27,7 +27,7 @@ export default function FAQPreview() {
             más frecuentes.
           </p>
           <Link
-            href="/play"
+            href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
             className="border border-accent text-accent hover:bg-accent/10 rounded-lg px-6 py-3 text-sm font-semibold transition-colors"
           >
             Explorar todas las guías

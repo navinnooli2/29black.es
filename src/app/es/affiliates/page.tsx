@@ -105,7 +105,7 @@ export default function AffiliatesPage() {
           <p>
             ¿Listo para empezar a ganar? Contáctenos en{" "}
             <a
-              href="/play"
+              href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
               className="text-accent hover:underline"
             >
               {siteConfig.supportEmail}
@@ -116,7 +116,7 @@ export default function AffiliatesPage() {
 
           <div className="mt-8">
             <Link
-              href="/play"
+              href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
               className="inline-flex items-center justify-center bg-accent hover:bg-accent-hover text-black font-semibold rounded-lg px-8 py-3 text-sm transition-colors"
             >
               Convertirse en afiliado
