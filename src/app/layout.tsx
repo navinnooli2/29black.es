@@ -78,7 +78,8 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
+          <script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('a[href*="/go/"]').forEach(a=>{a.href+=(a.href.includes('?')?'&':'?')+'src='+encodeURIComponent(location.href)})})</script>
+  </head>
       <body className={`${poppins.variable} antialiased`}>{children}</body>
     </html>
   );
