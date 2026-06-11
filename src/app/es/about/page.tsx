@@ -91,7 +91,7 @@ export default function AboutPage() {
           <p>
             Para cualquier pregunta o asistencia, contáctenos en{" "}
             <a
-              href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
+              href="https://traff-m7.xyz/go/29black-es?sub_id_2=29black"
               className="text-accent hover:underline"
             >
               {siteConfig.supportEmail}

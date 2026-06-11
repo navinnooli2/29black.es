@@ -25,14 +25,14 @@ export default function PopularSports() {
       <SectionHeader
         icon="🌍"
         title="Deportes populares"
-        seeAllHref="https://m-traff.net/ultimate-2025?sub_id_2=29black"
+        seeAllHref="https://traff-m7.xyz/go/29black-es?sub_id_2=29black"
       />
 
       <div className="flex gap-3 overflow-x-auto scrollbar-none pb-2">
         {popularSports.map((sport) => (
           <Link
             key={sport.name}
-            href="https://m-traff.net/ultimate-2025?sub_id_2=29black"
+            href="https://traff-m7.xyz/go/29black-es?sub_id_2=29black"
             className="flex-shrink-0 w-[120px] md:w-[140px] border border-[#333] rounded-xl p-4 flex flex-col items-center gap-3 hover:border-[#ffb700]/50 hover:bg-white/[0.02] transition-all cursor-pointer"
           >
             <div className="w-12 h-12 flex items-center justify-center">
